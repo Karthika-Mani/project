@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text]{
+color: black; 
+font-size:20px;
+border-style:solid;
+margin:8px 0;
+border: 1px solid black;
+border-radius:4px;
+box-sizing: border-box;
+}
+body{
+ background:black;
+ background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100% 100%;
+}
+
+label{
+color: white; 
+font-size: 230%;
+font-style: "Lucida Console";
+width:240px;
+display:inline-block;
+text-align:right;
+}
+button[type=button]{
+font-size: 110%;
+display:inline;
+width:150px;
+background-color:green;
+color:white;
+padding :8px 8px;
+margin:8px 0;
+border-radius:6px;
+cursor:pointer;
+}
+</style>
+<h1 style="font-size:60px;color:green;text-align:center;"><i>ADD PRODUCT</i></h1><br>
+<body style="text-align:center">
+<div>
+<label for ="pname">Product Name:</label>
+<input type="text" id="pname" name="pname"></div><br>
+<div><label for ="price">Price:</label>
+<input type="text" id="price" name="price"></div><br>
+<div><label for ="des">Description:</label>
+<input type="text" id="des" name="des"></div><br>
+<div><label for ="stock">stock:</label>
+<input type="text" id="stock" name=""stock"></div><br>
+<div><label for ="c_id">Category ID:</label>
+<input type="text" id="c_id" name="c_id"><br>
+<br>
+<button type="button" style="text-align:center;font-size:15px;font-style:italic">choosen file</button>
+<label for="png" style="text-align:left;">T-shirt.png</label><br><br><br>
+<button type="button" style="text-align:center;font-size:15px;font-style:italic">Add Product</button>
+</body>
+</html>
